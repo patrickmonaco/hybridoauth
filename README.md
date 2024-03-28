@@ -6,8 +6,8 @@ Install
 
 create the tables with the following scripts:
 
-*auth_users.sql
-*oauth_log.sql
+. auth_users.sql
+. oauth_log.sql
 
 Create the package:
 
