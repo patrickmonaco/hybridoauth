@@ -1,0 +1,5 @@
+
+  CREATE TABLE "OAUTH_LOG" 
+   (	"DD" TIMESTAMP (6), 
+	"TXT" VARCHAR2(1000 CHAR)
+   ) ;
