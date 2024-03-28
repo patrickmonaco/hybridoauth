@@ -4,18 +4,18 @@ https://gpmfactory.com/index.php/2024/03/28/hybrid-oauth-flow-with-oracle-ords/
 Install
 =============
 
-create the tables with the following scripts:
+1. create the tables with the following scripts:
 
-. auth_users.sql
-. oauth_log.sql
+   * auth_users.sql
+   * oauth_log.sql
 
-Create the package:
+2. Create the package:
 
-*oauth_pkg.sql
-*oauth_pkg.plb
+   * oauth_pkg.sql
+   * oauth_pkg.plb
 
-create the REST module:
+3. create the REST module:
 
-*ORDS_REST_DEMO_eu.gpmfactory.custoauth_2024_03_28.sql
+   * ORDS_REST_DEMO_eu.gpmfactory.custoauth_2024_03_28.sql
 
-Create a client Credential client and store the client id somewhere. This value will be given to the app developer.
+4. reate a client Credential client and store the client id somewhere. This value will be given to the app developer.
